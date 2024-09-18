@@ -16,5 +16,10 @@ namespace PDV
         {
             InitializeComponent();
         }
+
+        private void frmTelaHome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
