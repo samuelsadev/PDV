@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{19D002E5-24C1-4F0E-B13B-13E79DBB1412}|PDV.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19D002E5-24C1-4F0E-B13B-13E79DBB1412}|PDV.csproj|c:\\users\\thiag\\onedrive\\documentos\\_estudos\\c#\\pdv\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19D002E5-24C1-4F0E-B13B-13E79DBB1412}|PDV.csproj|C:\\Users\\thiag\\OneDrive\\Documentos\\_ESTUDOS\\C#\\PDV\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19D002E5-24C1-4F0E-B13B-13E79DBB1412}|PDV.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,12 +42,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T18:29:00.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-09-18T18:29:00.808Z"
             }
           ]
         }
