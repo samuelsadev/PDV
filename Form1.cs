@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PDV
 {
-    public partial class Form1 : Form
+    public partial class frmTelaHome : Form
     {
-        public Form1()
+        public frmTelaHome()
         {
             InitializeComponent();
         }
