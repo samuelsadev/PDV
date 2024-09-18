@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using PDV.cadastro;
 
 namespace PDV
 {
-    public partial class frmTelaHome : Form
+    public partial class FrmTelaHome : Form
     {
-        public frmTelaHome()
+        public FrmTelaHome()
         {
             InitializeComponent();
         }
@@ -25,6 +19,12 @@ namespace PDV
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void MenuFuncionarios_Click(object sender, EventArgs e)
+        {
+            cadastro.FrmFuncionario frm = new FrmFuncionario();
+            frm.ShowDialog();
         }
     }
 }

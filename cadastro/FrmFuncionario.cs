@@ -2,9 +2,9 @@ using System.Windows.Forms;
 
 namespace PDV.cadastro
 {
-    public partial class FrmCadastro : Form
+    public partial class FrmFuncionario : Form
     {
-        public FrmCadastro()
+        public FrmFuncionario()
         {
             InitializeComponent();
         }

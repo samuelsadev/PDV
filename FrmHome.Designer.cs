@@ -1,6 +1,6 @@
 ﻿namespace PDV
 {
-    partial class frmTelaHome
+    partial class FrmTelaHome
     {
         /// <summary>
         /// Required designer variable.
@@ -29,14 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTelaHome));
             this.MenuHome = new System.Windows.Forms.MenuStrip();
             this.MenuCadastro = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuFuncionarios = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuClientes = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuUsuarios = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuCargos = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFornecedor = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuRelProduto = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuNovoP = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuEstoque = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuMovimentacoes = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFluxo = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuLancar = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuMovEntradas = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuDespesas = new System.Windows.Forms.ToolStripMenuItem();
+            this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRelP = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuVendas = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRelMov = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRelEntradas = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuRelDespesas = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -44,19 +58,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.MenuCargos = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuFornecedor = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuNovoP = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuEstoque = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuFluxo = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuLancar = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuMovEntradas = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuDespesas = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuRelP = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuVendas = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuRelEntradas = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuRelDespesas = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuRelMov = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -84,20 +85,33 @@
             // MenuFuncionarios
             // 
             this.MenuFuncionarios.Name = "MenuFuncionarios";
-            this.MenuFuncionarios.Size = new System.Drawing.Size(152, 22);
+            this.MenuFuncionarios.Size = new System.Drawing.Size(142, 22);
             this.MenuFuncionarios.Text = "Funcionários";
+            this.MenuFuncionarios.Click += new System.EventHandler(this.MenuFuncionarios_Click);
             // 
             // MenuClientes
             // 
             this.MenuClientes.Name = "MenuClientes";
-            this.MenuClientes.Size = new System.Drawing.Size(152, 22);
+            this.MenuClientes.Size = new System.Drawing.Size(142, 22);
             this.MenuClientes.Text = "Clientes";
             // 
             // MenuUsuarios
             // 
             this.MenuUsuarios.Name = "MenuUsuarios";
-            this.MenuUsuarios.Size = new System.Drawing.Size(152, 22);
+            this.MenuUsuarios.Size = new System.Drawing.Size(142, 22);
             this.MenuUsuarios.Text = "Usuários";
+            // 
+            // MenuCargos
+            // 
+            this.MenuCargos.Name = "MenuCargos";
+            this.MenuCargos.Size = new System.Drawing.Size(142, 22);
+            this.MenuCargos.Text = "Cargos";
+            // 
+            // MenuFornecedor
+            // 
+            this.MenuFornecedor.Name = "MenuFornecedor";
+            this.MenuFornecedor.Size = new System.Drawing.Size(142, 22);
+            this.MenuFornecedor.Text = "Fornecedor";
             // 
             // MenuRelProduto
             // 
@@ -106,12 +120,17 @@
             this.MenuRelProduto.Size = new System.Drawing.Size(67, 20);
             this.MenuRelProduto.Text = "Produtos";
             // 
-            // relatóriosToolStripMenuItem
+            // MenuNovoP
             // 
-            this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.MenuRelP, this.MenuVendas, this.MenuRelMov, this.MenuRelEntradas, this.MenuRelDespesas });
-            this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.relatóriosToolStripMenuItem.Text = "Relatórios";
+            this.MenuNovoP.Name = "MenuNovoP";
+            this.MenuNovoP.Size = new System.Drawing.Size(149, 22);
+            this.MenuNovoP.Text = "Novo Produto";
+            // 
+            // MenuEstoque
+            // 
+            this.MenuEstoque.Name = "MenuEstoque";
+            this.MenuEstoque.Size = new System.Drawing.Size(149, 22);
+            this.MenuEstoque.Text = "Estoque";
             // 
             // MenuMovimentacoes
             // 
@@ -119,6 +138,67 @@
             this.MenuMovimentacoes.Name = "MenuMovimentacoes";
             this.MenuMovimentacoes.Size = new System.Drawing.Size(104, 20);
             this.MenuMovimentacoes.Text = "Movimentações";
+            // 
+            // MenuFluxo
+            // 
+            this.MenuFluxo.Name = "MenuFluxo";
+            this.MenuFluxo.Size = new System.Drawing.Size(163, 22);
+            this.MenuFluxo.Text = "Fluxo Caixa";
+            // 
+            // MenuLancar
+            // 
+            this.MenuLancar.Name = "MenuLancar";
+            this.MenuLancar.Size = new System.Drawing.Size(163, 22);
+            this.MenuLancar.Text = "Lançar Venda";
+            // 
+            // MenuMovEntradas
+            // 
+            this.MenuMovEntradas.Name = "MenuMovEntradas";
+            this.MenuMovEntradas.Size = new System.Drawing.Size(163, 22);
+            this.MenuMovEntradas.Text = "Entradas / Saídas";
+            // 
+            // MenuDespesas
+            // 
+            this.MenuDespesas.Name = "MenuDespesas";
+            this.MenuDespesas.Size = new System.Drawing.Size(163, 22);
+            this.MenuDespesas.Text = "Despesas";
+            // 
+            // relatóriosToolStripMenuItem
+            // 
+            this.relatóriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.MenuRelP, this.MenuVendas, this.MenuRelMov, this.MenuRelEntradas, this.MenuRelDespesas });
+            this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.relatóriosToolStripMenuItem.Text = "Relatórios";
+            // 
+            // MenuRelP
+            // 
+            this.MenuRelP.Name = "MenuRelP";
+            this.MenuRelP.Size = new System.Drawing.Size(163, 22);
+            this.MenuRelP.Text = "Produtos";
+            // 
+            // MenuVendas
+            // 
+            this.MenuVendas.Name = "MenuVendas";
+            this.MenuVendas.Size = new System.Drawing.Size(163, 22);
+            this.MenuVendas.Text = "Vendas";
+            // 
+            // MenuRelMov
+            // 
+            this.MenuRelMov.Name = "MenuRelMov";
+            this.MenuRelMov.Size = new System.Drawing.Size(163, 22);
+            this.MenuRelMov.Text = "Movimentos";
+            // 
+            // MenuRelEntradas
+            // 
+            this.MenuRelEntradas.Name = "MenuRelEntradas";
+            this.MenuRelEntradas.Size = new System.Drawing.Size(163, 22);
+            this.MenuRelEntradas.Text = "Entradas / Saídas";
+            // 
+            // MenuRelDespesas
+            // 
+            this.MenuRelDespesas.Name = "MenuRelDespesas";
+            this.MenuRelDespesas.Size = new System.Drawing.Size(163, 22);
+            this.MenuRelDespesas.Text = "Despesas";
             // 
             // sairToolStripMenuItem
             // 
@@ -182,85 +262,7 @@
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             // 
-            // MenuCargos
-            // 
-            this.MenuCargos.Name = "MenuCargos";
-            this.MenuCargos.Size = new System.Drawing.Size(152, 22);
-            this.MenuCargos.Text = "Cargos";
-            // 
-            // MenuFornecedor
-            // 
-            this.MenuFornecedor.Name = "MenuFornecedor";
-            this.MenuFornecedor.Size = new System.Drawing.Size(152, 22);
-            this.MenuFornecedor.Text = "Fornecedor";
-            // 
-            // MenuNovoP
-            // 
-            this.MenuNovoP.Name = "MenuNovoP";
-            this.MenuNovoP.Size = new System.Drawing.Size(152, 22);
-            this.MenuNovoP.Text = "Novo Produto";
-            // 
-            // MenuEstoque
-            // 
-            this.MenuEstoque.Name = "MenuEstoque";
-            this.MenuEstoque.Size = new System.Drawing.Size(152, 22);
-            this.MenuEstoque.Text = "Estoque";
-            // 
-            // MenuFluxo
-            // 
-            this.MenuFluxo.Name = "MenuFluxo";
-            this.MenuFluxo.Size = new System.Drawing.Size(163, 22);
-            this.MenuFluxo.Text = "Fluxo Caixa";
-            // 
-            // MenuLancar
-            // 
-            this.MenuLancar.Name = "MenuLancar";
-            this.MenuLancar.Size = new System.Drawing.Size(163, 22);
-            this.MenuLancar.Text = "Lançar Venda";
-            // 
-            // MenuMovEntradas
-            // 
-            this.MenuMovEntradas.Name = "MenuMovEntradas";
-            this.MenuMovEntradas.Size = new System.Drawing.Size(163, 22);
-            this.MenuMovEntradas.Text = "Entradas / Saídas";
-            // 
-            // MenuDespesas
-            // 
-            this.MenuDespesas.Name = "MenuDespesas";
-            this.MenuDespesas.Size = new System.Drawing.Size(163, 22);
-            this.MenuDespesas.Text = "Despesas";
-            // 
-            // MenuRelP
-            // 
-            this.MenuRelP.Name = "MenuRelP";
-            this.MenuRelP.Size = new System.Drawing.Size(163, 22);
-            this.MenuRelP.Text = "Produtos";
-            // 
-            // MenuVendas
-            // 
-            this.MenuVendas.Name = "MenuVendas";
-            this.MenuVendas.Size = new System.Drawing.Size(163, 22);
-            this.MenuVendas.Text = "Vendas";
-            // 
-            // MenuRelEntradas
-            // 
-            this.MenuRelEntradas.Name = "MenuRelEntradas";
-            this.MenuRelEntradas.Size = new System.Drawing.Size(163, 22);
-            this.MenuRelEntradas.Text = "Entradas / Saídas";
-            // 
-            // MenuRelDespesas
-            // 
-            this.MenuRelDespesas.Name = "MenuRelDespesas";
-            this.MenuRelDespesas.Size = new System.Drawing.Size(163, 22);
-            this.MenuRelDespesas.Text = "Despesas";
-            // 
-            // MenuRelMov
-            // 
-            this.MenuRelMov.Name = "MenuRelMov";
-            this.MenuRelMov.Size = new System.Drawing.Size(163, 22);
-            this.MenuRelMov.Text = "Movimentos";
-            // 
-            // frmTelaHome
+            // FrmTelaHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -272,8 +274,9 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.MenuHome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.MenuHome;
-            this.Name = "frmTelaHome";
+            this.Name = "FrmTelaHome";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MenuHome.ResumeLayout(false);

@@ -16,7 +16,7 @@ namespace PDV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTelaHome());
+            Application.Run(new FrmTelaHome());
         }
     }
 }
