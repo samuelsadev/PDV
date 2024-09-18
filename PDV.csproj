@@ -46,16 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="cadastro\FrmCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="cadastro\FrmCadastro.Designer.cs">
+      <DependentUpon>FrmCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,19 +87,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\39006511_689760281397450_25797046753558528_n.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vector-3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vector-1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vector.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vector-2.png" />
+    <Content Include="Resources\grandePato.jpg" />
+    <Content Include="Resources\iconeCaixa.png" />
+    <Content Include="Resources\iconeCarrinho.png" />
+    <Content Include="Resources\iconeCode.png" />
+    <Content Include="Resources\iconeInfo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
