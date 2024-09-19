@@ -1,0 +1,11 @@
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\bin\Debug\PDV.exe.config
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\bin\Debug\PDV.exe
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\bin\Debug\PDV.pdb
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.csproj.AssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.frmTelaHome.resources
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.Properties.Resources.resources
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.csproj.GenerateResource.cache
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.csproj.CoreCompileInputs.cache
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.exe
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.pdb
+C:\Users\thiag\OneDrive\Documentos\_ESTUDOS\C#\PDV\obj\Debug\PDV.cadastro.FrmFuncionario.resources
