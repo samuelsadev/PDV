@@ -13,7 +13,7 @@ namespace PDV
 
         private void frmTelaHome_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -23,7 +23,7 @@ namespace PDV
 
         private void MenuFuncionarios_Click(object sender, EventArgs e)
         {
-            cadastro.FrmFuncionario frm = new FrmFuncionario();
+            cadastro.FrmFuncionario frm = new cadastro.FrmFuncionario();
             frm.ShowDialog();
         }
     }
